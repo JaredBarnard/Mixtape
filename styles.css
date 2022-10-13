@@ -1,0 +1,20 @@
+body{
+  background: rgb(195, 255, 254);
+}
+
+main{
+  display: block;
+  margin:auto;
+  width:500px;
+}
+
+img.Cassettecover.jpg{
+  width:125px;
+}
+/* I centered the main tag */
+
+.center{
+display:block;
+margin-right:auto;
+margin-left:auto;
+width:325px;
