@@ -1,5 +1,11 @@
 body{
   background: rgb(195, 255, 254);
+  font-size:16px;
+  font-family:'Barlow Condensed', sans-serif;
+  line-height:1.2;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
 }
 
 main{
@@ -7,10 +13,16 @@ main{
   margin:auto;
   width:500px;
 }
-
-img.Cassettecover.jpg{
-  width:125px;
+h2{
+  text-align: center;
+  font-family:'Barlow Condensed', sans-serif;
 }
+
+p{
+  text-align: center;
+  font-family:'Barlow Condensed', sans-serif;
+}
+
 /* I centered the main tag */
 
 .center{
@@ -18,3 +30,4 @@ display:block;
 margin-right:auto;
 margin-left:auto;
 width:325px;
+}
