@@ -10,10 +10,13 @@ body{
   margin:0;
   padding:0;
   box-sizing: border-box;
+  display:block;
+  margin-right:auto;
+  margin-left:auto;
 }
 
 main{
-  display: block;
+  display:block;
   margin:auto;
   width:500px;
 }
@@ -27,16 +30,38 @@ h2{
   font-family:'Barlow Condensed', sans-serif;
 }
 
+li{
+  Color: white;
+}
+
+a{
+  Color: white;
+}
+ol{
+  background-color: black;
+  color: white;
+  padding: 10px;
+
+  height: 150px;
+  display:block;
+  margin-right:auto;
+  margin-left:auto;
+}
+.col{
+  display: grid;
+ grid-template-columns: auto auto;
+  height: 150px;
+}
+
 p{
   text-align: center;
   font-family:'Barlow Condensed', sans-serif;
 }
 
 /* I centered the main tag */
-
 .center{
 display:block;
 margin-right:auto;
 margin-left:auto;
-width:325px;
+width:250px;
 }
