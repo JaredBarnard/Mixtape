@@ -49,8 +49,7 @@ ol{
 }
 .col{
   display: grid;
- grid-template-columns: auto auto;
-  height: 150px;
+  grid-template-columns: auto auto;
 }
 
 p{
