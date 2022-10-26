@@ -2,14 +2,16 @@ html{
   scroll-behavior: smooth;
 }
 
+.cassette{
+  margin-top: -110px;
+  padding-bottom: -125px;
+}
+
 body{
   background: rgb(195, 255, 254);
   font-size:16px;
   font-family:'Barlow Condensed', sans-serif;
   line-height:1.2;
-  margin:0;
-  padding:0;
-  box-sizing: border-box;
   display:block;
   margin-right:auto;
   margin-left:auto;
@@ -18,11 +20,15 @@ body{
 main{
   display:block;
   margin:auto;
-  width:500px;
+  max-width: 500px;
 }
 
 img{
   max-width:100%;
+}
+
+h1{
+  padding-top: -200px;
 }
 
 h2{
@@ -36,20 +42,27 @@ li{
 
 a{
   Color: white;
+  font-size:17px;
 }
 ol{
   background-color: black;
+  radius: 10px;
   color: white;
-  padding: 10px;
+  padding: -500px;
+  padding-top: 15px;
+  padding-left: -25px;
 
-  height: 150px;
+  height: 200px;
   display:block;
   margin-right:auto;
   margin-left:auto;
+  list-style-position: inside;
 }
 .col{
-  display: grid;
-  grid-template-columns: auto auto;
+  column-count: 2;
+  column-gap: 05px;
+  width: 100%;
+  margin: auto;
 }
 
 p{
@@ -63,4 +76,13 @@ display:block;
 margin-right:auto;
 margin-left:auto;
 width:250px;
+}
+
+.grid{
+  align-items: baseline;
+}
+.tracklist{
+  font-size: 30px;
+  margin-top: -150px;
+  margin-bottom: -10px;
 }
