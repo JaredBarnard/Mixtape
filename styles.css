@@ -3,8 +3,8 @@ html{
 }
 
 .cassette{
-  margin-top: 50px;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: -80px;
   max-width: 10%;
   display:block;
   margin-right:auto;
@@ -93,10 +93,9 @@ width:250px;
 }
 .tracklist{
   font-size: 30px;
-  margin-top: -10px;
+  margin-top: 10px;
   margin-bottom: -10px;
 }
-
 
 @media screen and (max-width: 2000px) {
   .cassette {
@@ -110,5 +109,5 @@ width:250px;
 
 @media screen and (max-width: 500px) {
   .cassette {
-    max-width: 100%;
+    max-width: 95%;
   }
