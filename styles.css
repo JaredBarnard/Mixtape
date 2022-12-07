@@ -25,12 +25,12 @@ ol{
   color: white;
   padding-top: 15px;
   margin-bottom: 60px;
-
   height: 200px;
   display:block;
   margin-right:auto;
   margin-left:auto;
   list-style-position: inside;
+  max-width: 100%;
 }
 .col{
   column-count: 2;
